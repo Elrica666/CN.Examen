@@ -43,19 +43,3 @@ def calcular_hipotenusa(lado1, lado2):
     hipotenusa = (lado1 ** 2 + lado2 ** 2) ** 0.5
     print("La hipotenusa del triángulo rectángulo es: ", hipotenusa)
     return
-
-lado1= float(input("introduce un lado "))
-lado2= float(input("introduce el otro lado "))
-calcular_hipotenusa(lado1,lado2)
-
-primo(3)
-
-generar_contraseña()
-
-numero = int(input('introduce un numero: '))
-sig_primo(numero)
-
-num1= int(input("introduce un numero para sacar la mediana"))
-num2= int(input("introduce un numero para sacar la mediana"))
-num3= int(input("introduce un numero para sacar la mediana"))
-mediana(num1,num2,num3)

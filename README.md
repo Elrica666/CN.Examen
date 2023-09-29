@@ -1,1 +1,1 @@
-# CN.Examen
+# Examen

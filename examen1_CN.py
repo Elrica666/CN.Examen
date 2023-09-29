@@ -32,14 +32,14 @@ def sig_primo(entrada):
       print(entrada)
       break
 
-def generar_contraseña():
+def contraseña():
     caracteres = [chr(i) for i in range(33, 127)]
     longitud = random.randint(7, 10)
     contraseña = ''.join(random.choice(caracteres) for _ in range(longitud))
 
     return contraseña
 
-def calcular_hipotenusa(lado1, lado2):
+def hipotenusa(lado1, lado2):
     hipotenusa = (lado1 ** 2 + lado2 ** 2) ** 0.5
     print("La hipotenusa del triángulo rectángulo es: ", hipotenusa)
     return
